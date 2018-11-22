@@ -29,7 +29,8 @@ public class Masajista extends PersonaEquipo {
 
     @Override
     public void entrenamiento() {
-        System.out.printf("%s %s: Da asistencia en el entrenamiento\n", super.getNombre(), super.getApellidos());
+        System.out.printf("%s %s, da asistencia en el entrenamiento(Clase Masajista). Su titulo es %s\n", super.getNombre(), super.getApellidos(), getTitulacion());
+        //Raúl Martinez, da asistencia en el entrenamiento (Clase Masajista). Su título es Licenciado en Fisioterapia
     }
 
     public void darMasaje() {

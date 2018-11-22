@@ -40,7 +40,8 @@ public class Futbolista extends PersonaEquipo {
 
    @Override
    public void entrenamiento() {
-      System.out.printf("%s %s: Realiza un entrenamiento\n", super.getNombre(), super.getApellidos());
+      System.out.printf("%s %s, realiza un entrenamiento (Clase Entrenador). Su identificacion es %s\n", super.getNombre(), super.getApellidos(), getDorsal());
+      //Adres Iniesta, realiza un entrenamiento (Clase Futbolista). Su número o dorsal es 6
    }
 
    
